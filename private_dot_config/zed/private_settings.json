@@ -1,0 +1,69 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "debugger": {
+    "dock": "right",
+  },
+  "outline_panel": {
+    "dock": "right",
+  },
+  "collaboration_panel": {
+    "dock": "right",
+  },
+  "git_panel": {
+    "dock": "right",
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry",
+    },
+    "github-copilot-cli": {
+      "type": "registry",
+    },
+  },
+  "inlay_hints": {
+    "show_background": false,
+    "show_value_hints": false,
+  },
+  "ui_font_weight": 450.0,
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Monospace Icon Theme - Dark",
+  },
+  "helix_mode": true,
+  "agent": {
+    "dock": "left",
+    "thinking_display": "always_expanded",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o",
+    },
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "ui_font_size": 20.0,
+  "terminal": {
+    "font_weight": 500,
+    "font_size": 16.0,
+  },
+  "buffer_font_size": 16.0,
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte - No Italics",
+    "dark": "Catppuccin Frappé - No Italics",
+  },
+  "project_panel": {
+    "dock": "right",
+  },
+  "ui_font_family": "SF Pro Display",
+  "buffer_font_family": "SF Mono",
+}

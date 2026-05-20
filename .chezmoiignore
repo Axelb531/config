@@ -1,0 +1,5 @@
+.DS_Store
+*.backup
+
+# Zed — binary prompt DB, not config
+.config/zed/prompts
