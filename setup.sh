@@ -112,7 +112,7 @@ ensure_gh_auth() {
 
 apply_dotfiles() {
   log_info "Applying dotfiles with chezmoi from repo: ${CHEZMOI_REPO}"
-  run_cmd chezmoi init --apply "${CHEZMOI_REPO}"
+  run_cmd chezmoi init --apply --force "${CHEZMOI_REPO}"
   log_ok "chezmoi apply completed."
 }
 
