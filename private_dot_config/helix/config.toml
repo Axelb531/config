@@ -1,0 +1,14 @@
+
+[theme]
+light = "onelight"
+dark = "onedark"
+
+[editor]
+mouse = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+
