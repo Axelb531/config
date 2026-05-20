@@ -20,16 +20,6 @@ abbr -a cd.. cd_up
 
 alias zed="open -a /Applications/Zed.app -n"
 
-alias civenso="cd ~/Developer/civenso-chatbot-api"
-
-alias python=python3
-
-alias pip=pip3
-
-alias note='fish -c ~/Notes/createDailyNote.fish'
-
-alias docekr=docker
-
 alias ll='ls -l'
 
 # The next line updates PATH for the Google Cloud SDK.
